@@ -52,13 +52,13 @@ git clone <your-repo-url>
 cd butterfly-classification
 pip install -r requirements.txt
 
-## Key Dependencies:
+##  Key Dependencies:
 * Python >= 3.9
 * TensorFlow / Keras
 * Pandas, NumPy, Matplotlib
 * Scikit-learn
 
-## Usage
+##  Usage
 1. Prepare Dataset
 * Organize images into train/, valid/, and test/ directories.
 * Optional: check class balance, preprocess images, resize to 224x224 pixels.
@@ -101,17 +101,17 @@ labels, confs, images = predict_multiple_images(img_paths)
 * Confusion matrix for top classes to analyze performance
 * Normalized confusion matrix for readability
 
-## Deployment
+##  Deployment
 * The trained model is saved as best_model.keras
 * Label ↔ species mapping saved as a dictionary for inference
 * Deployed with: Gradio for interactive demos
 
-## References
+##  References
 * TensorFlow Transfer Learning Guide
 * EfficientNet Paper: Tan and Le, 2019, “EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks”
 * Public Butterfly/Moth datasets (add source links)
 
-## License
+##  License
 This project is licensed under the MIT License.
 
 
