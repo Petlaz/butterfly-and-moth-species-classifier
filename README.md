@@ -104,13 +104,13 @@ labels, confs, images = predict_multiple_images(img_paths)
 🌐 Deployment
 * The trained model is saved as best_model.keras
 * Label ↔ species mapping saved as a dictionary for inference
-* Deployed with: Gradio for interactive demos
+* Ready for deployment
 ---
 
 🔗 References
 * TensorFlow Transfer Learning Guide
 * EfficientNet Paper: Tan and Le, 2019, “EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks”
-* Public Butterfly/Moth datasets (add source links)
+* Public Butterfly/Moth datasets:https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species
 ---
 
 📝 License
