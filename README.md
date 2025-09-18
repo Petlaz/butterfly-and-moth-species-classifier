@@ -91,6 +91,7 @@ labels, confs, images = predict_multiple_images(img_paths)
 4. Visualize Predictions
 * Display images with predicted species and confidence
 * Optional: plot top 5 predicted classes for each image
+---
 
 📊 Model Evaluation
 * Metrics:
@@ -98,16 +99,19 @@ labels, confs, images = predict_multiple_images(img_paths)
     * Precision, Recall, F1-score (macro-averaged)
 * Confusion matrix for top classes to analyze performance
 * Normalized confusion matrix for readability
+---
 
 🌐 Deployment
 * The trained model is saved as best_model.keras
 * Label ↔ species mapping saved as a dictionary for inference
 * Deployed with: Gradio for interactive demos
+---
 
 🔗 References
 * TensorFlow Transfer Learning Guide
 * EfficientNet Paper: Tan and Le, 2019, “EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks”
 * Public Butterfly/Moth datasets (add source links)
+---
 
 📝 License
 This project is licensed under the MIT License.
