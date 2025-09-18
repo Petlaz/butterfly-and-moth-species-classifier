@@ -46,7 +46,7 @@ butterfly-classification/
 ⚙️ Installation
 Clone this repository and install dependencies:
 ```bash
-git clone <your-repo-url>
+git clone (https://github.com/Petlaz/butterfly-and-moth-species-classifier)
 cd butterfly-classification
 pip install -r requirements.txt
 
