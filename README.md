@@ -1,56 +1,65 @@
 
-# Butterfly & Moth Species Classification
+# 🦋 Butterfly & Moth Species Classification
 
-![Project Banner](images/banner.png)  <!-- Optional: add a relevant image -->
+<!-- Optional banner image -->
+<!-- ![Project Banner](images/banner.png) -->
 
-## Project Overview
+## 📖 Project Overview
+This project **automatically classifies butterfly and moth species** using deep learning and transfer learning.  
+It provides a robust machine-learning pipeline that identifies **100 different species** from images—helpful for enthusiasts, researchers, and conservationists.
 
-This project focuses on **automatically classifying butterfly and moth species** using deep learning and transfer learning techniques. The goal is to build a robust machine learning pipeline that can identify **100 different species** from images, helping enthusiasts, researchers, and conservationists in species recognition.
-
-Key highlights:
-- Dataset: ~13,500 labeled images across 100 species
-- Deep learning model: Transfer learning with **EfficientNetB4** backbone
-- Preprocessing & augmentation: Resize, normalization, flips, rotations, brightness adjustments
-- Achieved reliable predictions with visualizations for single and multiple images
+**Key highlights**
+- **Dataset**: ~13,500 labeled images across 100 species  
+- **Model**: Transfer learning with **EfficientNetB4** backbone  
+- **Preprocessing & Augmentation**: resize, normalization, flips, rotations, brightness adjustments  
+- Achieved reliable predictions with visualizations for single and multiple images.
 
 ---
 
+## 📂 Project Structure
+```
 ## Project Structure
 
 butterfly-classification/
-├── Butterfly/
-│   ├── train/
-│   ├── valid/
-│   └── test/
-├── notebooks/             # colab notebooks for EDA & training
-├── label_map.json.     # mapping of numeric labels to species names
-├── best_model.keras       # Saved trained model
-├── requirements.txt.         #  dependencies list
-└── README.md
-
-
-## Dataset
-
-- The dataset consists of butterfly and moth images organized in:
+|
+|-- Butterfly/
+|   |-- train/
+|   |-- valid/
+|   |-- test/
+|
+|-- notebooks/          # Colab notebooks for EDA & training
+|-- label_map.json      # Mapping of numeric labels to species names
+|-- best_model.keras    # Saved trained model
+|-- requirements.txt    # Dependencies list
+|-- README.md
 ```
-butterfly/
-├── train/
-├── valid/
-└── test/
-- Each class has its own subfolder (species name).
-- Total: **~13,500 images** (train: 12,594, validation: 500, test: 500)
-- Source: Publicly available butterfly and moth images ([Kaggle / Open datasets link can be added])
-```
+
+
 ---
 
-## Installation
+## 🗂 Dataset
+- Organized into `train/`, `valid/`, and `test/` directories; each species is its own subfolder.  
+- Total: **~13,500 images** (train: 12,594 • validation: 500 • test: 500).  
+- Source: Public butterfly and moth images (add Kaggle/Open Dataset link if desired).
 
+---
+
+## ⚙️ Installation
 Clone this repository and install dependencies:
-
 ```bash
 git clone <your-repo-url>
 cd butterfly-classification
 pip install -r requirements.txt
+
+## Key Dependencies
+* Python >= 3.9
+* TensorFlow / Keras
+* Pandas, NumPy, Matplotlib
+* Scikit-learn
+
+
+
+
 
 ##  Key Dependencies:
 * Python >= 3.9
