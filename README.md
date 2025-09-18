@@ -1,8 +1,8 @@
 
 # 🦋 Butterfly & Moth Species Classification
 
-<!-- Optional banner image -->
-<!-- ![Project Banner](images/banner.png) -->
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19zw2ByMTK3zRlwKAnmuwMRu4R0uyQoGT)
+
 
 📖 Project Overview
 This project **automatically classifies butterfly and moth species** using deep learning and transfer learning.  
