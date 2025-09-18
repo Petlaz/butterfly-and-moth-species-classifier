@@ -1,0 +1,49 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+
+# Model files
+best_model*.keras
+*.h5
+*.pth
+*.pt
+
+# Dataset directories
+test/
+train/
+valid/
+my_butterflies_photos/
+
+# Data files
+*.csv
+*.json
+*.zip
+*.tar.gz
+*.7z
+
+# Gradio cache
+.gradio/
+
+# Large files
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
