@@ -32,6 +32,7 @@ butterfly-classification/
 ## Dataset
 
 - The dataset consists of butterfly and moth images organized in:
+```
 butterfly/
 ├── train/
 ├── valid/
@@ -39,7 +40,7 @@ butterfly/
 - Each class has its own subfolder (species name).
 - Total: **~13,500 images** (train: 12,594, validation: 500, test: 500)
 - Source: Publicly available butterfly and moth images ([Kaggle / Open datasets link can be added])
-
+```
 ---
 
 ## Installation
