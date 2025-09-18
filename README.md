@@ -4,7 +4,7 @@
 <!-- Optional banner image -->
 <!-- ![Project Banner](images/banner.png) -->
 
-## 📖 Project Overview
+📖 Project Overview
 This project **automatically classifies butterfly and moth species** using deep learning and transfer learning.  
 It provides a robust machine-learning pipeline that identifies **100 different species** from images—helpful for enthusiasts, researchers, and conservationists.
 
@@ -16,10 +16,9 @@ It provides a robust machine-learning pipeline that identifies **100 different s
 
 ---
 
-## 📂 Project Structure
-```
-## Project Structure
+📂 Project Structure
 
+```
 butterfly-classification/
 |
 |-- Butterfly/
@@ -37,14 +36,14 @@ butterfly-classification/
 
 ---
 
-## 🗂 Dataset
+🗂 Dataset
 - Organized into `train/`, `valid/`, and `test/` directories; each species is its own subfolder.  
 - Total: **~13,500 images** (train: 12,594 • validation: 500 • test: 500).  
 - Source: Public butterfly and moth images (add Kaggle/Open Dataset link if desired).
 
 ---
 
-## ⚙️ Installation
+⚙️ Installation
 Clone this repository and install dependencies:
 ```bash
 git clone <your-repo-url>
@@ -52,16 +51,6 @@ cd butterfly-classification
 pip install -r requirements.txt
 
 ## Key Dependencies
-* Python >= 3.9
-* TensorFlow / Keras
-* Pandas, NumPy, Matplotlib
-* Scikit-learn
-
-
-
-
-
-##  Key Dependencies:
 * Python >= 3.9
 * TensorFlow / Keras
 * Pandas, NumPy, Matplotlib
@@ -103,24 +92,24 @@ labels, confs, images = predict_multiple_images(img_paths)
 * Display images with predicted species and confidence
 * Optional: plot top 5 predicted classes for each image
 
-## Model Evaluation
+📊 Model Evaluation
 * Metrics:
     * Accuracy
     * Precision, Recall, F1-score (macro-averaged)
 * Confusion matrix for top classes to analyze performance
 * Normalized confusion matrix for readability
 
-##  Deployment
+🌐 Deployment
 * The trained model is saved as best_model.keras
 * Label ↔ species mapping saved as a dictionary for inference
 * Deployed with: Gradio for interactive demos
 
-##  References
+🔗 References
 * TensorFlow Transfer Learning Guide
 * EfficientNet Paper: Tan and Le, 2019, “EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks”
 * Public Butterfly/Moth datasets (add source links)
 
-##  License
+📝 License
 This project is licensed under the MIT License.
 
 
